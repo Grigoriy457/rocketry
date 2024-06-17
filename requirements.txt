@@ -1,4 +1,4 @@
 # Minimum requirements
 pydantic
-redbird @ git+https://github.com/Grigoriy457/red-bird@1.0
+redbird @ git+https://github.com/Grigoriy457/red-bird.git@1.0
 python-dateutil
