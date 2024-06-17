@@ -5,7 +5,7 @@ from pathlib import Path
 from typing import Callable, List, Optional
 import warnings
 
-from pydantic import Field, PrivateAttr, validator
+from pydantic.v1 import Field, PrivateAttr, validator
 
 from rocketry.core.task import Task
 from rocketry.core.parameters import Parameters

@@ -1,6 +1,6 @@
 import datetime
 from typing import Optional
-from pydantic import BaseModel, Field, validator
+from pydantic.v1 import BaseModel, Field, validator
 
 from rocketry.pybox.time import to_datetime, to_timedelta
 

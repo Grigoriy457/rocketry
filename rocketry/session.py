@@ -13,7 +13,7 @@ import warnings
 
 from itertools import chain
 from typing import TYPE_CHECKING, Callable, ClassVar, Iterable, Dict, List, Optional, Set, Tuple, Type, Union
-from pydantic import BaseModel, root_validator, validator
+from pydantic.v1 import BaseModel, root_validator, validator
 from rocketry.pybox.time import to_timedelta
 from rocketry.log.defaults import create_default_handler
 from rocketry._base import RedBase

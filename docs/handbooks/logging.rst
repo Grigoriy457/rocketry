@@ -53,7 +53,7 @@ accepts:
 
 .. code-block:: python
 
-    from pydantic import BaseModel
+    from pydantic.v1 import BaseModel
 
     class MinimalRecord(BaseModel):
         task_name: str

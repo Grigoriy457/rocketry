@@ -2,7 +2,7 @@
 import copy
 from typing import Callable, Optional, Pattern, Union
 
-from pydantic import Field
+from pydantic.v1 import Field
 from rocketry.args import Session
 from rocketry import Session as _Session
 

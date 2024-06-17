@@ -3,7 +3,7 @@ from itertools import chain
 import datetime
 import logging
 from typing import Optional
-from pydantic import root_validator, validator
+from pydantic.v1 import root_validator, validator
 
 import pytest
 

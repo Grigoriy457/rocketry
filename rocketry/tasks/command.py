@@ -7,7 +7,7 @@ try:
 except ImportError: # pragma: no cover
     from typing_extensions import Literal
 
-from pydantic import Field, validator
+from pydantic.v1 import Field, validator
 
 from rocketry.core.parameters.parameters import Parameters
 from rocketry.core.task import Task

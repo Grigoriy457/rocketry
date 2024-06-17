@@ -1,6 +1,6 @@
 from typing import List, Optional, Union
 
-from pydantic import BaseModel
+from pydantic.v1 import BaseModel
 
 from rocketry.conditions import Any, All, DependFinish, DependSuccess
 from rocketry.conditions.task import DependFailure
